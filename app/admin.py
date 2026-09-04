@@ -1,3 +1,3 @@
-from django.contrib import admin
+from app.account.admin import UserAdmin
 
-# Register your models here.
+__all__ = ['UserAdmin']

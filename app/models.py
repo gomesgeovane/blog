@@ -1,3 +1,3 @@
-from django.db import models
+from app.account.model import User
 
-# Create your models here.
+__all__ = ['User']

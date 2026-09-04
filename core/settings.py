@@ -133,3 +133,9 @@ MAILERS = {
         'BACKEND': 'django.core.mail.backends.console.EmailBackend',
     },
 }
+
+MIGRATION_MODULES = {
+    'app': 'app._migrations',
+}
+
+AUTH_USER_MODEL = 'app.User'
